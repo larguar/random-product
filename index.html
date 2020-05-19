@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<title>Hello, world!</title>
+<title>Pinultimate Random Product Picker</title>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i&display=swap" rel="stylesheet">
@@ -19,25 +19,46 @@ main {
 }
 section.content {
     text-align: center;
-    max-width: 360px;
+    max-width: 300px;
     margin: 0 auto;
 }
 img.logo {
     max-width: 140px;
     margin-bottom: 30px;
 }
-section.bg-white {
+section.card {
     margin-bottom: 30px;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 15px 30px -5px rgba(0,0,0,0.25);
+    background: url(https://cdn.shopify.com/s/files/1/0106/9426/2842/files/Paper.jpg);
+    background-size: cover;
+    background-position: center center;
 }
-h1.product-title {
+a.btn {
+    font-size: 17px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 16px 30px 15px 30px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #01A990;
+    border-color: #01A990;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #01886a;
+    border-color: #01886a;
+}
+h1 {
     font-size: 24px;
     font-weight: 400;
-    margin-bottom: 0;
+    margin-bottom: 5px;
+    margin-top: -20px;
 }
-h2.maker {
+h2 {
     font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -54,40 +75,42 @@ h2.maker {
     <div class="d-flex align-items-center h-100">
     <section class="content">
         <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/PinultimateLogo.png" class="logo">
-    <section class="bg-white">
+    <section class="card">
         <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/Paper.jpg" class="img-fluid product-img">
         <h1 class="product-title">&nbsp;</h1>
         <h2 class="maker">&nbsp;</h2>
     </section>
-    <a href="#" class="btn btn-primary refresh">Refresh</a>
+    <a href="#" class="btn btn-primary refresh">Pick a Product</a>
     </section>
     </div>
 </main>
 
+<!-- NECESSARY FOR JSON TO PULL -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
 <script>
 
+    // Pulls JSON FILE
     $.getJSON('products.json', function(data) {
 
-    /** you have to tell it which array to look into **/
+    // Points to the correct array (what it's named in the JSON file)
     var cardArray = data.products;
 
-    /** then you can tell it to find a random object in that array **/
+    // Selects a random object in that array
     var randomCard = cardArray[Math.floor(Math.random()*cardArray.length)];
     console.log(randomCard);
 
-    /** then you can tell it to do things with the line items within the object **/
+    // Asign the JSON line items to where you'd like them in the HTML
     $(".product-title").text(randomCard.name);
     $(".maker").text(randomCard.maker);
     $("img.product-img").attr("src", randomCard.image);
     $("img.product-img").attr("alt", randomCard.name);
     });
 
+    // Refresh the page on buttom click
     $(".refresh").click(function() {
 		document.location.reload(true);
-	});
-
+    });
+    
 </script>
 
 </body>
