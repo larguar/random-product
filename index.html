@@ -31,7 +31,7 @@
         <h2 class="product-title">&nbsp;</h2>
         <h3 class="maker">&nbsp;</h3>
     </section>
-    <a href="#" class="btn btn-primary">Select A Random Product</a>
+    <a href="#" class="btn btn-primary refresh">Select A Random Product</a>
     </section>
     </div>
 </main>
@@ -55,6 +55,10 @@
     $("img.product-img").attr("src", randomCard.image);
     $("img.product-img").attr("alt", randomCard.name);
     });
+
+    $(".refresh").click(function() {
+		document.location.reload(true);
+	});
 
 </script>
 
