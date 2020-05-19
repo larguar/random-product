@@ -20,23 +20,22 @@ body {
 main {
     height: 100vh;
 }
-section.content {
-    text-align: center;
-    max-width: 300px;
-    margin: 0 auto;
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: -20px;
+    padding: 0px 30px;
+    line-height: 1.1;
 }
-img.logo {
-    max-width: 140px;
+h2 {
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
     margin-bottom: 30px;
-}
-section.card {
-    margin-bottom: 30px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 15px 30px -5px rgba(0,0,0,0.25);
-    background: url(https://cdn.shopify.com/s/files/1/0106/9426/2842/files/Paper.jpg);
-    background-size: cover;
-    background-position: center center;
+    opacity: 0.5;
+    padding: 0 30px;
 }
 a.btn {
     font-size: 15px;
@@ -56,22 +55,23 @@ a.btn {
     background-color: #01886a;
     border-color: #01886a;
 }
-h1 {
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 8px;
-    margin-top: -20px;
-    padding: 0px 30px;
-    line-height: 1.1;
+section.content {
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
 }
-h2 {
-    font-weight: 500;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+img.logo {
+    max-width: 140px;
     margin-bottom: 30px;
-    opacity: 0.5;
-    padding: 0 30px;
+}
+section.card {
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,0.25);
+    background: url(https://cdn.shopify.com/s/files/1/0106/9426/2842/files/Paper.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 </style>
 
@@ -81,15 +81,15 @@ h2 {
 
 <main class="container-fluid bg-dark">
     <div class="d-flex align-items-center h-100">
-    <section class="content">
-        <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/PinultimateLogo.png" class="logo">
-    <section class="card">
-        <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/Paper.jpg" class="img-fluid product-img">
-        <h1 class="product-title">&nbsp;</h1>
-        <h2 class="maker">&nbsp;</h2>
-    </section>
-    <a href="#" class="btn btn-primary refresh">Pick a Product</a>
-    </section>
+        <section class="content">
+            <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/PinultimateLogo.png" class="logo">
+            <section class="card">
+                <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/files/Paper.jpg" class="img-fluid product-img">
+                <h1 class="product-title">&nbsp;</h1>
+                <h2 class="maker">&nbsp;</h2>
+            </section>
+            <a href="#" class="btn btn-primary refresh">Pick a Product</a>
+        </section>
     </div>
 </main>
 
