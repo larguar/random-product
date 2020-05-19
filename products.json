@@ -3,17 +3,32 @@
         {
             "name": "100% That Witch Pin",
             "maker": "SOLBEAM STUDIO",
-            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/SOLWitch_960x.jpg?v=1587857404"
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/SOLWitch_960x.jpg"
         },
         {
             "name": "1984 Pin",
             "maker": "IDEAL BOOKSHELF",
-            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/1984_720x.jpg?v=1558714218"
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/1984_720x.jpg"
+        },
+        {
+            "name": "Acoustic Guitar Pin",
+            "maker": "CARLI JAYNE",
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/CJAGuitar_960x.jpg"
+        },
+        {
+            "name": "Airedale Terrier Pin",
+            "maker": "DOGGIE DRAWINGS",
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/DOGAiredale_960x.jpg"
+        },
+        {
+            "name": "Alice in Wonderland Pin",
+            "maker": "IDEAL BOOKSHELF",
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/Alice_ff5f136a-4270-46cf-961e-abbdd93e7dd9_960x.jpg"
         },
         {
             "name": "Zero Fucks Given Pin",
             "maker": "SUPER TEAM DELUXE",
-            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/ZeroFucks_720x.jpg?v=1552084810g"
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/ZeroFucks_720x.jpg"
         }
     ]
 }

@@ -36,7 +36,10 @@
     </div>
 </main>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
 <script>
+
     $.getJSON('products.json', function(data) {
 
     /** you have to tell it which array to look into **/
@@ -50,7 +53,9 @@
     $(".product-title").text(randomCard.name);
     $(".maker").text(randomCard.maker);
     $("img.product-img").attr("src", randomCard.image);
+    $("img.product-img").attr("alt", randomCard.name);
     });
+
 </script>
 
 </body>
