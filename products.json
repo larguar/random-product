@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "name": "100% That Witch Pin",
+            "maker": "SOLBEAM STUDIO",
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/SOLWitch_960x.jpg?v=1587857404"
+        },
+        {
+            "name": "1984 Pin",
+            "maker": "IDEAL BOOKSHELF",
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/1984_720x.jpg?v=1558714218"
+        },
+        {
+            "name": "Zero Fucks Given Pin",
+            "maker": "SUPER TEAM DELUXE",
+            "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/ZeroFucks_720x.jpg?v=1552084810g"
+        }
+    ]
+}

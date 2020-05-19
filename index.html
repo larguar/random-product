@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<title>Hello, world!</title>
+
+<style>
+    main {
+        height: 100vh;
+    }
+    section.content {
+        text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+</style>
+
+</head>
+
+<body>
+
+<main class="container-fluid bg-dark">
+    <div class="d-flex align-items-center h-100">
+    <section class="content">
+    <h1>Header</h1>
+    <section class="bg-white">
+        <img src="https://cdn.shopify.com/s/files/1/0106/9426/2842/products/SOLWitch_960x.jpg?v=1587857404" class="img-fluid product-img">
+        <h2 class="product-title">Product Title</h2>
+        <h3 class="maker">Maker Maker</h3>
+    </section>
+    <a href="#" class="btn btn-primary">Select A Random Product</a>
+    </section>
+    </div>
+</main>
+
+<script>
+    $.getJSON('products.json', function(data) {
+
+    /** you have to tell it which array to look into **/
+    var cardArray = data.products;
+
+    /** then you can tell it to find a random object in that array **/
+    var randomCard = cardArray[Math.floor(Math.random()*cardArray.length)];
+    console.log(randomCard);
+
+    /** then you can tell it to do things with the line items within the object **/
+    $(".product-title").text(randomCard.name);
+    $(".maker").text(randomCard.maker);
+    $("img.product-img").attr("src", randomCard.image);
+    });
+</script>
+
+</body>
+</html>
