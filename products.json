@@ -1,9 +1,49 @@
 {
     "products": [
-         {
-		   "name": "Seconds Sale Pins",
-		   "maker": "Pinultimate",
-		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/Seconds.gif?v=1593660513"
+		{
+		   "name": "The Hitchhiker's Guide to the Galaxy Pin",
+		   "maker": "Ideal Bookshelf",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/IDBHitchhikers.jpg?v=1594753776"
+		 },
+		 {
+		   "name": "Glitter Skull Pin",
+		   "maker": "The Pink Samurai",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/PSASkull.jpg?v=1594306194"
+		 },
+		 {
+		   "name": "Fuck Off Pin",
+		   "maker": "The Lighter Type",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/LITFuck.jpg?v=1594305884"
+		 },
+		 {
+		   "name": "Pointer Pin",
+		   "maker": "Doggie Drawings",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/DOGPointer.jpg?v=1594305527"
+		 },
+		 {
+		   "name": "Pride Pin",
+		   "maker": "A Fink & Ink",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/AFIPride.jpg?v=1594243883"
+		 },
+		 {
+		   "name": "Proud Snowflake Pin",
+		   "maker": "A Fink & Ink",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/AFISnowflake.jpg?v=1594243603"
+		 },
+		 {
+		   "name": "Nurture Nature Pin",
+		   "maker": "Lost Lust Supply",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/LLSNature.jpg?v=1594141289"
+		 },
+		 {
+		   "name": "Then & Now Pin",
+		   "maker": "Adam J. Kurtz",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/AJKRainbow.jpg?v=1594138429"
+		 },
+		 {
+		   "name": "Indecisive Spinner Pin",
+		   "maker": "Adam J. Kurtz",
+		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/AJKSpin.gif?v=1594137866"
 		 },
 		 {
 		   "name": "Yellow Lily Pin",
@@ -42,48 +82,33 @@
 		 },
 		 {
 		   "name": "Cupcake Unicorn Pin",
-		   "maker": "Hipster Pins",
+		   "maker": "Hipster Pins - Consignment",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/HIPUnicorn.jpg?v=1593016494"
 		 },
 		 {
 		   "name": "Nasty Woman Pin",
-		   "maker": "Hipster Pins",
+		   "maker": "Hipster Pins - Consignment",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/HIPNasty_4c5fb0cb-3a23-49fe-b4d7-f6431ab8e55b.jpg?v=1593030524"
 		 },
 		 {
 		   "name": "Popsicle Pin",
-		   "maker": "Hipster Pins",
+		   "maker": "Hipster Pins - Consignment",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/HIPPopsicle.jpg?v=1593013643"
 		 },
 		 {
 		   "name": "Scooter Pin",
-		   "maker": "Hipster Pins",
+		   "maker": "Hipster Pins - Consignment",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/HIPScooter.jpg?v=1593013885"
 		 },
 		 {
 		   "name": "Love is Love Pin",
-		   "maker": "Hipster Pins",
+		   "maker": "Hipster Pins - Consignment",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/HIPLove.jpg?v=1592405377"
-		 },
-		 {
-		   "name": "Lettuce Pray Sticker",
-		   "maker": "The Lighter Type",
-		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/STCKRSLettuce.jpg?v=1592105397"
 		 },
 		 {
 		   "name": "Brown Trout Sticker",
 		   "maker": "Wildship Studio",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/STCKRSFish1_2ea9c563-0c66-4c22-876a-90ce0b7f4b81.jpg?v=1592104686"
-		 },
-		 {
-		   "name": "Brook Trout Sticker",
-		   "maker": "Wildship Studio",
-		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/STCKRSFish2.jpg?v=1592104285"
-		 },
-		 {
-		   "name": "Deer Sticker",
-		   "maker": "Wildship Studio",
-		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/STCKRSDeer.jpg?v=1592103850"
 		 },
 		 {
 		   "name": "Know Your Worth Pin",
@@ -666,11 +691,6 @@
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/LLSBackpack.jpg?v=1571250393"
 		 },
 		 {
-		   "name": "Skull Eyes Pin",
-		   "maker": "Lost Lust Supply",
-		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/LLSSkull.jpg?v=1571260042"
-		 },
-		 {
 		   "name": "Desert Scorpion Pin",
 		   "maker": "Lost Lust Supply",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/LLSScorpion.jpg?v=1571249492"
@@ -749,11 +769,6 @@
 		   "name": "Snow Cone Pin",
 		   "maker": "The Pink Samurai",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/189162940.jpg?v=1568334462"
-		 },
-		 {
-		   "name": "The Pin Tote",
-		   "maker": "Pinultimate",
-		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/IMG_87052.jpg?v=1590973262"
 		 },
 		 {
 		   "name": "Palm Dreams Pin",
@@ -1490,5 +1505,5 @@
 		   "maker": "Smarty Pants Paper Co.",
 		   "image": "https://cdn.shopify.com/s/files/1/0106/9426/2842/products/balloon_7d6574b8-2a4d-4214-8112-23a684e55b4a.jpg?v=1531789889"
 		 }
-    ]
+     ]
 }
